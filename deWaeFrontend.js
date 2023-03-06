@@ -947,7 +947,7 @@ async function buttonLogic() {
   const decrButton = document.getElementById("decrButton");
 
   incrButton.addEventListener("click", (_) => {
-    mintAmnt = mintAmnt === 25 ? mintAmnt : mintAmnt + 1;
+    mintAmnt = mintAmnt === 10 ? mintAmnt : mintAmnt + 1;
     mintCount.innerHTML = mintAmnt;
   });
 
